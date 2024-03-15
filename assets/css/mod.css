@@ -1,0 +1,135 @@
+.card-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 20px;
+}
+
+.card-personality {
+	padding: 20px;
+	text-align: center;
+}
+
+.card_services {
+	padding: 20px;
+	text-align: center;
+}
+
+.services-icon {
+	color: #000000;
+	font-size: 60px;
+	margin: 0 0 10px 0;
+	display: block;
+	padding: 0;
+	line-height: 0;
+	padding: 30px;
+}
+
+.gold-blast,
+.gradient-text {
+	background:
+		radial-gradient(ellipse farthest-corner at right center,
+			#fedb37 0%,
+			#fdb931 8%,
+			#9f7928 30%,
+			transparent 80%),
+		radial-gradient(ellipse farthest-corner at left,
+			#ffffff 0%,
+			#ffffac 18%,
+			#d1b464 25%,
+			#8a6e2f 40%,
+			#5d4a1f 62.5%,
+			#5d4a1f 30%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-fill-color: transparent;
+}
+
+
+.card .card_services {
+
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+	background: #fff;
+	padding: 20px;
+	color: black;
+	box-sizing: border-box;
+	text-align: center;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, .5)
+}
+
+.card .card_services .layer {
+	z-index: 1;
+	position: absolute;
+	top: calc(100% - 2px);
+	height: 100%;
+	width: 100%;
+	left: 0;
+	background: radial-gradient(ellipse farthest-corner at right bottom,
+			#fedb37 0%,
+			#fdb931 8%,
+			#9f7928 30%,
+			#8a6e2f 40%,
+			transparent 80%),
+		radial-gradient(ellipse farthest-corner at left top,
+			#ffffff 0%,
+			#ffffac 8%,
+			#d1b464 25%,
+			#5d4a1f 62.5%,
+			#5d4a1f 100%),
+		rgb(197 119 66 / var(--tw-bg-opacity));
+	--tw-text-opacity: 1;
+	transition: 0.5s;
+
+}
+
+.card .card_services .content {
+	z-index: 2;
+	position: relative;
+}
+
+.card .card_services:hover .layer {
+	top: 0;
+}
+
+.card .card_services .content p {
+	font-size: 14px;
+	line-height: 24px;
+
+}
+
+.card .card_services .content .image {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 4px solid white;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+
+}
+
+.card .card_services .conte nt .details h2 {
+	font-size: 18px;
+	color: white;
+}
+
+.card .card_services .content .details h2 span {
+	font-size: 18px;
+	color: purple;
+	transition: 0.5s;
+}
+
+.card .card_services:hover .content .details h2 span {
+	color: white;
+	position: relative
+}
+
+.left-full {
+	left: 83%;
+}
+
+.rotate-5 {
+	rotate: 18deg;
+}
