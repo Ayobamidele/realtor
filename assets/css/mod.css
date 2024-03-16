@@ -16,7 +16,7 @@
 
 .services-icon {
 	color: #000000;
-	font-size: 60px;
+	font-size: 80px;
 	margin: 0 0 10px 0;
 	display: block;
 	padding: 0;
@@ -26,23 +26,10 @@
 
 .gold-blast,
 .gradient-text {
-	background:
-		radial-gradient(ellipse farthest-corner at right center,
-			#fedb37 0%,
-			#fdb931 8%,
-			#9f7928 30%,
-			transparent 80%),
-		radial-gradient(ellipse farthest-corner at left,
-			#ffffff 0%,
-			#ffffac 18%,
-			#d1b464 25%,
-			#8a6e2f 40%,
-			#5d4a1f 62.5%,
-			#5d4a1f 30%);
+	background: #ffd700;
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
-	text-fill-color: transparent;
 }
 
 
@@ -132,4 +119,22 @@
 
 .rotate-5 {
 	rotate: 18deg;
+}
+
+.text-primary\/10 {
+	color: #ffd700;
+}
+
+.text-primary\/5 {
+	color: #f4d2168a;
+}
+
+.text-primary {
+	--tw-text-opacity: 1;
+	color: #fdd70a;
+}
+
+.hover\:text-primary:hover {
+	--tw-text-opacity: 1;
+	color: #fdd70a;
 }
