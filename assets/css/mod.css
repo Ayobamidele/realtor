@@ -26,7 +26,8 @@
 
 .gold-blast,
 .gradient-text {
-	background: #ffd700;
+	background: #CCB034;
+	;
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -85,7 +86,8 @@
 }
 
 .text-primary\/10 {
-	color: #ffd700;
+	color: ##CCB034;
+	;
 }
 
 .text-primary\/5 {
@@ -94,10 +96,12 @@
 
 .text-primary {
 	--tw-text-opacity: 1;
-	color: #fdd70a;
+	color: #CCB034;
+	;
 }
 
 .hover\:text-primary:hover {
 	--tw-text-opacity: 1;
-	color: #fdd70a;
+	color: #CCB034;
+	;
 }
