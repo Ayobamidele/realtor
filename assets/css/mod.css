@@ -27,16 +27,14 @@
 .gold-blast,
 .gradient-text {
 	background: #CCB034;
-	;
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 
-.card .card_services {
+.card {
 
-	overflow: hidden;
 	margin: 0 auto;
 	background: #fff;
 	padding: 20px;
